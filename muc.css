@@ -65,7 +65,7 @@ section {
     background: url(logo-hr.png) center bottom no-repeat;
 }
 
-#thanks, #about, #getticket, #financial {
+#thanks, #about, #getticket {
     background: none;
     padding-bottom: 75px;
 }
