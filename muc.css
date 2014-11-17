@@ -183,6 +183,10 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
+img.sponsorlogo {
+    margin-top: 20px;
+}
+
 @media (max-width: 1000px) {
     .wrapper {
         width: 100%;
