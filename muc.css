@@ -111,9 +111,9 @@ section {
 }
 
 #graph {
-    padding-top: 30px;
     position: relative;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 #graph li {
@@ -156,7 +156,7 @@ section {
 #progress {
     background-color: rgba(255, 51, 0, 1);
     height: 20px;
-    width: 3%;
+    width: 7%;
 }
 
 #about {
@@ -181,6 +181,20 @@ footer {
 
 footer a {
     color: rgb(255, 255, 255);
+}
+
+#sponsors {
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+#sponsors li {
+    float: left;
+}
+
+img.sponsorlogo {
+    margin-top: 20px;
+    margin-right: 50px;
 }
 
 @media (max-width: 1000px) {
