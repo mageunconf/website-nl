@@ -192,6 +192,12 @@ footer a {
     float: left;
 }
 
+#sponsors a {
+    display: inline-block;
+    width: 20%;
+    height: 75px;
+}
+
 img.sponsorlogo {
     margin-top: 20px;
     margin-right: 50px;
