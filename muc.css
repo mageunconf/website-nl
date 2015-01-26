@@ -65,7 +65,7 @@ section {
     background: url(logo-hr.png) center bottom no-repeat;
 }
 
-#thanks, #about, #getticket {
+#tools-for-bloggers, #about, #getticket {
     background: none;
     padding-bottom: 75px;
 }
@@ -119,6 +119,7 @@ section {
 #graph li {
     float: left;
     position: absolute;
+    list-style:none;
     height: 65px;
     bottom: 0px;
     width: 20%;
@@ -156,7 +157,7 @@ section {
 #progress {
     background-color: rgba(255, 51, 0, 1);
     height: 20px;
-    width: 80%;
+    width: 100%;
 }
 
 #about {
@@ -190,6 +191,7 @@ footer a {
 
 #sponsors li {
     float: left;
+    list-style:none;
 }
 
 #sponsors a {
@@ -201,6 +203,21 @@ footer a {
 img.sponsorlogo {
     margin-top: 20px;
     margin-right: 50px;
+}
+
+ul, ol {
+	padding-left:1.2rem;
+	margin-bottom:1rem;
+	padding-right:4rem;
+}
+
+li {
+	list-style-type:square;
+}
+
+
+small {
+	font-size:0.9rem;
 }
 
 @media (max-width: 1000px) {
