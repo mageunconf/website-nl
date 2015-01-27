@@ -11,6 +11,8 @@ body {
     position: relative;
 }
 
+strong { font-weight:bold; }
+
 a {
     color: rgb(255, 51, 0);
 }
@@ -219,6 +221,9 @@ li {
 small {
 	font-size:0.9rem;
 }
+
+dt {font-weight:bold;}
+dd {padding-left:1.2rem; margin-bottom:0.6rem;}
 
 @media (max-width: 1000px) {
     .wrapper {
