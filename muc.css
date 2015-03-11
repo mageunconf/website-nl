@@ -262,10 +262,48 @@ tr:last-child td {
 	border-bottom:2px solid rgb(255, 51, 0);
 }
 
+#gallery:after{
+	content:"";
+	clear:both;
+	display:block;
+}
 
 blockquote p:before { content: ' „ ' ' '; color: rgba(255, 51, 0, 1); font-size:30px; font-family: Georgia, serif; }
 blockquote p:after { content: ' ' ' “ '; color: rgba(255, 51, 0, 1); font-size:30px; font-family: Georgia, serif; }
 blockquote~p { font-family:Georgia, serif; text-align:right; color:rgb(151,151,151); margin-right:25%;}
+
+figure { 
+	position:relative; 
+	width:30%; 
+	float:left; 
+	margin:5% 5% 0 0;
+}
+
+.portrait {
+	width:15%;
+}
+
+figure:before { content:''; display:block; margin-top:66.6666%;}
+.portrait:before {
+	margin-top:130%;
+}
+figure:nth-child(3n+0) {margin-right:0;}
+figure div { 
+	position:absolute; 
+	top:0; 
+	right:0; 
+	left:0; 
+	bottom:0; 
+	
+	max-height:100%; 
+	max-width:100%; 
+	
+	text-align:center;
+}
+
+figure img { 	box-shadow:0px 0px 5px rgba(0,0,0,0.3); border:5px solid white; max-height:94%; }
+.portrait img { max-height:97%; }
+
 @media (max-width: 1000px) {
     .wrapper {
         width: 100%;
