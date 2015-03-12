@@ -11,7 +11,9 @@ body {
     position: relative;
 }
 
-strong { font-weight:bold; }
+strong {
+    font-weight: bold;
+}
 
 a {
     color: rgb(255, 51, 0);
@@ -32,7 +34,7 @@ h2 {
     padding-bottom: 7px;
     margin-bottom: 7px;
     border-bottom: 1px solid rgb(255, 51, 0);
-    width: 325px;
+    width: 75%;
 }
 
 h3 {
@@ -42,8 +44,8 @@ h3 {
 }
 
 h4 {
-	font-weight: 500;
-	padding-bottom:10px;
+    font-weight: 500;
+    padding-bottom: 10px;
 }
 
 p, ol {
@@ -51,10 +53,10 @@ p, ol {
 }
 
 .credit {
-	text-align:right;
-	font-size:0.75rem;
-	color:rgb(151,151,151);
-	margin-top:0;
+    text-align: right;
+    font-size: 0.75rem;
+    color: rgb(151, 151, 151);
+    margin-top: 0;
 }
 
 header {
@@ -133,7 +135,7 @@ section {
 #graph li {
     float: left;
     position: absolute;
-    list-style:none;
+    list-style: none;
     height: 65px;
     bottom: 0px;
     width: 20%;
@@ -205,7 +207,7 @@ footer a {
 
 #sponsors li {
     float: left;
-    list-style:none;
+    list-style: none;
 }
 
 #sponsors a {
@@ -220,89 +222,141 @@ img.sponsorlogo {
 }
 
 ul, ol {
-	padding-left:1.2rem;
-	margin-bottom:1rem;
-	padding-right:4rem;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+    padding-right: 4rem;
 }
 
 li {
-	list-style-type:square;
+    list-style-type: square;
 }
-
 
 small {
-	font-size:0.9rem;
+    font-size: 0.9rem;
 }
 
-dt {font-weight:bold;}
-dd {padding-left:1.2rem; margin-bottom:0.6rem;}
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding-left: 1.2rem;
+    margin-bottom: 0.6rem;
+}
 
 table {
-	margin-bottom:12px;
-	width:100%;
+    margin-bottom: 12px;
+    width: 100%;
 }
+
 th, td {
-	padding:2px 4px;
+    padding: 2px 4px;
 }
 
 th {
-	text-align:left;
-	font-weight:500;
-	border-bottom:2px solid rgb(255, 51, 0);
+    text-align: left;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(255, 51, 0);
 }
 
 tr:nth-child(odd) td {
-	background:rgba(0,0,0,0.05);
+    background: rgba(0, 0, 0, 0.05);
 }
 
-tr.talk td/*:nth-child(3)*/ {
-	color:rgb(128,128,128);
+tr.talk td/*:nth-child(3)*/  {
+    color: rgb(128, 128, 128);
 }
+
 tr:last-child td {
-	border-bottom:2px solid rgb(255, 51, 0);
+    border-bottom: 2px solid rgb(255, 51, 0);
 }
 
-#gallery:after{
-	content:"";
-	clear:both;
-	display:block;
+#gallery:after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
-blockquote p:before { content: ' „ ' ' '; color: rgba(255, 51, 0, 1); font-size:30px; font-family: Georgia, serif; }
-blockquote p:after { content: ' ' ' “ '; color: rgba(255, 51, 0, 1); font-size:30px; font-family: Georgia, serif; }
-blockquote~p { font-family:Georgia, serif; text-align:right; color:rgb(151,151,151); margin-right:25%;}
+blockquote{
+    position: relative;}
 
-figure { 
-	position:relative; 
-	width:30%; 
-	float:left; 
-	margin:5% 5% 0 0;
+blockquote p:before {
+    content: '„\00a0';
+    color: rgba(255, 51, 0, 1);
+    font-size: 30px;
+    font-family: Georgia, serif;
+    position:absolute;
+    left:0px;
+    top:-5px;
+}
+
+blockquote p:after {
+    content: '\00a0“';
+    color: rgba(255, 51, 0, 1);
+    font-size: 30px;
+    font-family: Georgia, serif;
+    position: absolute;
+    line-height: 30px;
+
+}
+blockquote p {
+    padding-left:19px;
+    padding-bottom: 7px;
+}
+blockquote ~ p {
+    font-family: Georgia, serif;
+    text-align: right;
+    color: rgb(151, 151, 151);
+    margin-right: 10%;
+}
+
+figure {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 5% 5% 0 0;
 }
 
 .portrait {
-	width:15%;
+    width: 15%;
 }
 
-figure:before { content:''; display:block; margin-top:66.6666%;}
+figure:before {
+    content: '';
+    display: block;
+    margin-top: 66.6666%;
+}
+
 .portrait:before {
-	margin-top:130%;
-}
-figure:nth-child(3n+0) {margin-right:0;}
-figure div { 
-	position:absolute; 
-	top:0; 
-	right:0; 
-	left:0; 
-	bottom:0; 
-	
-	max-height:100%; 
-	max-width:100%; 
-	
-	text-align:center;
+    margin-top: 130%;
 }
 
-figure img { 	box-shadow:0px 0px 5px rgba(0,0,0,0.3); border:5px solid white; max-height:94%; }
-.portrait img { max-height:97%; }
+figure:nth-child(3n+0) {
+    margin-right: 0;
+}
+
+figure div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    max-height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+}
+
+figure img {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: 5px solid white;
+    max-height: 94%;
+}
+
+.portrait img {
+    max-height: 97%;
+}
 
 @media (max-width: 1000px) {
     .wrapper {
