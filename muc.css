@@ -60,7 +60,7 @@ p, ol {
 }
 
 header {
-    background: transparent url(MageUC-Logo.png) center 120px no-repeat;
+    background: transparent url(img/MageUC-Logo.png) center 120px no-repeat;
     height: 130px;
     padding: 250px 0 10px 0;
     text-align: center;
@@ -68,7 +68,7 @@ header {
 }
 
 .wrapper {
-    background: url(cream_dust.png);
+    background: url(img/cream_dust.png);
     width: 1000px;
     height: 100%;
     margin: 0 auto;
@@ -78,7 +78,7 @@ header {
 
 section {
     padding: 75px 175px 107px 175px;
-    background: url(logo-hr.png) center bottom no-repeat;
+    background: url(img/logo-hr.png) center bottom no-repeat;
 }
 
 #tools-for-bloggers, #about, #getticket {
@@ -377,17 +377,17 @@ figure img {
 @media all and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 
     header {
-        background: transparent url(MageUC-Logo@2x.png) center 120px no-repeat;
+        background: transparent url(img/MageUC-Logo@2x.png) center 120px no-repeat;
         background-size: 360px 117px;
     }
 
     section {
-        background: url(logo-hr@2x.png) center bottom no-repeat;
+        background: url(img/logo-hr@2x.png) center bottom no-repeat;
         background-size: 32px 32px;
     }
 
     .wrapper {
-        background: url(cream_dust@2x.png);
+        background: url(img/cream_dust@2x.png);
         background-size: 50px 5px;
     }
 }
