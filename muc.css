@@ -149,15 +149,15 @@ section {
 }
 
 #graph li.goal2 {
-    left: 24%;
+    left: 28%;
 }
 
 #graph li.goal3 {
-    left: 47%;
+    left: 38%;
 }
 
 #graph li.goal4 {
-    left: 58%;
+    left: 60%;
 }
 
 #graph li.goal5 {
@@ -181,7 +181,7 @@ section {
 #progress {
     background-color: rgba(255, 51, 0, 1);
     height: 20px;
-    width: 13%;
+    width: 45%;
 }
 
 #about {
