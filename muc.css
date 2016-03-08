@@ -207,10 +207,17 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
+#party-sponsors {
+    padding-left: 200px;
+    padding-right: 175px;
+}
+
+
 #sponsors {
     padding-left: 175px;
     padding-right: 175px;
 }
+
 
 #sponsors li {
     float: left;
