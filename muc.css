@@ -414,6 +414,15 @@ p > .framed {
     }
 }
 
+@media (max-width: 430px) {
+    #timetable {
+        padding: 10px 5px 40px;
+    }
+    .wrapper {
+        min-width: 0;
+    }
+}
+
 @media all and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 
     header {
