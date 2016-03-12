@@ -405,6 +405,10 @@ p > .framed {
     #party-sponsors {
         padding: 0 0 0 20px;
     }
+    .container-autoflow {
+        max-width: 100%;
+        overflow: auto;
+    }
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
