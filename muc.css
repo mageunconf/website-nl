@@ -398,7 +398,7 @@ p > .framed {
         padding: 5% 15% 10% 15%;
     }
 
-    #financial h2, #financial p, #location h2, #location p {
+    #financial h2, #financial p, #location h2, #location p, #party-sponsors {
         margin-left: 15%;
         margin-right: 15%;
     }
