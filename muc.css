@@ -207,7 +207,7 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
-#party-sponsors {
+#party-sponsors, #sweets-sponsors {
     padding-left: 200px;
     padding-right: 175px;
 }
@@ -397,14 +397,14 @@ p > .framed {
         padding: 5% 15% 10% 15%;
     }
 
-    #financial h2, #financial p, #location h2, #location p, #party-sponsors, #sponsors {
+    #financial h2, #financial p, #location h2, #location p, #party-sponsors, #sweets-sponsors, #sponsors {
         margin-left: 15%;
         margin-right: 15%;
     }
     #sponsors {
         padding: 0;
     }
-    #party-sponsors {
+    #party-sponsors, #sweets-sponsors  {
         padding: 0 0 0 20px;
     }
     .container-autoflow {
