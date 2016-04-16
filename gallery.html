@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>MUC - Mage Unconference</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+
     <title>Title</title>
 
+    <script type="text/javascript" src="//use.typekit.net/pkp4bed.js"></script>
+    <script type="text/javascript">try {
+        Typekit.load();
+    } catch (e) {
+    }</script>
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="muc.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
     <script type="text/javascript" src="//code.jquery.com/jquery-2.2.3.min.js"></script>
-
     <link rel="stylesheet" type="text/css" media="screen" href="dist/justifiedGallery/justifiedGallery.min.css" />
     <script type="text/javascript" src="dist/justifiedGallery/jquery.justifiedGallery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" media="screen" href="dist/swipebox/css/swipebox.min.css" />
     <script type="text/javascript" src="dist/swipebox/js/jquery.swipebox.min.js"></script>
 
-    <script type="text/javascript">
+    <style type="text/css">
+        .gallery {
+            margin-bottom: 2em;
+            padding: 50px 2em;
+        }
+        h1 {
+            width: auto;
+            margin-bottom: 1em;
+        }
 
-
-
-    </script>
+        .buttons-set {
+            margin: 3em 0;
+            text-align: center;
+        }
+        .buttons-set .btn {
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
-<h1>MageUnconference 2016 - Die Bilder</h1>
 
+<div class="wrapper">
+    <div class="redbar"></div>
+    <a href="index.html">
+        <header>
+            Berlin, 7th–8th March 2015
+        </header>
+    </a>
+    <section class="gallery">
 
-<div id="mygallery" >
+        <h1>MageUnconference 2016 - Images say more than words!</h1>
+        <div id="mygallery" >
     <a href="2016/gallery-images/full/2016_01.jpg"><img alt="" src="2016/gallery-images/200/2016_01.jpg"/></a>
     <a href="2016/gallery-images/full/2016_02.jpg"><img alt="" src="2016/gallery-images/200/2016_02.jpg"/></a>
     <a href="2016/gallery-images/full/2016_03.jpg"><img alt="" src="2016/gallery-images/200/2016_03.jpg"/></a>
@@ -364,8 +395,19 @@
     <a href="2016/gallery-images/full/2016_339.jpg"><img alt="" src="2016/gallery-images/200/2016_339.jpg"/></a>
     <a href="2016/gallery-images/full/2016_340.jpg"><img alt="" src="2016/gallery-images/200/2016_340.jpg"/></a>
 </div>
+        <div class="buttons-set">
+            <a href="index.html" class="btn">Back to the main page</a>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://www.mage-hackathon.de/imprint/" title="Imprint">Imprint</a>
+    </footer>
+
+</div>
+
 <script type="text/javascript">
-    $("#mygallery").justifiedGallery()
+    $('#mygallery').justifiedGallery()
             .on('jg.complete', function () {
                 $('#mygallery a').swipebox();
             });
