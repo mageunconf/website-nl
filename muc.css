@@ -16,7 +16,9 @@ strong {
 }
 
 a {
-    color: rgb(255, 51, 0);
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 h1 {
@@ -60,7 +62,7 @@ p, ol {
 }
 
 header {
-    background: transparent url('http://i.imgur.com/PGRwl9g.jpg') center center no-repeat;
+    background: transparent url('/images/PGRwl9g.jpg') center center no-repeat;
     height: 130px;
     padding: 130px 0 130px 0;
     text-align: center;
@@ -75,23 +77,23 @@ header span, header img {
     font-size: 16pt;
 }
 
-header img {
+/*header img {
     -webkit-filter: drop-shadow(1px 1px 3px rgba(255,255,255, 1));
-}
+}*/
 
 header span {
-    -webkit-text-stroke: 1px #FFF;
     color: #000;
+    /*-webkit-text-stroke: 1px #FFF;
     text-shadow:
             1px 1px 0 #FFF,
             -1px -1px 0 #FFF,
             1px -1px 0 #FFF,
-            -1px 1px 0 #FFF;
+            -1px 1px 0 #FFF;*/
     margin-top: 20px;
 }
 
 .wrapper {
-    background: url('http://i.imgur.com/AGhxbBJ.png');
+    background: url('/images/cream_dust.png');
     width: 1000px;
     height: 100%;
     margin: 0 auto;
@@ -101,7 +103,7 @@ header span {
 
 section {
     padding: 75px 175px 107px 175px;
-    background: url('http://i.imgur.com/jbYAxVv.png') center bottom no-repeat;
+    background: url('/images/logo-hr.png') center bottom no-repeat;
 }
 
 #tools-for-bloggers, #about, #getticket {
@@ -443,23 +445,5 @@ p > .framed {
     }
     .wrapper {
         min-width: 0;
-    }
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-
-    header {
-        background: transparent url('http://i.imgur.com/vnxVVwn.png') center 120px no-repeat;
-        background-size: 360px 117px;
-    }
-
-    section {
-        background: url('http://i.imgur.com/xhxgcH3.png') center bottom no-repeat;
-        background-size: 32px 32px;
-    }
-
-    .wrapper {
-        background: url('http://i.imgur.com/RFMGNSp.png');
-        background-size: 50px 5px;
     }
 }
