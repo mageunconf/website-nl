@@ -16,9 +16,13 @@ strong {
 }
 
 a {
-    color: #FFF;
+    color: rgb(255, 51, 0);
     font-weight: bold;
     text-decoration: underline;
+}
+
+#about a {
+    color: #FFF;
 }
 
 h1 {
