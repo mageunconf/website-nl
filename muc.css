@@ -9,6 +9,8 @@ body {
     line-height: 17pt;
     color: rgb(10, 10, 10);
     position: relative;
+    background-image: url('/images/bg_white.jpg');
+    background-repeat: repeat;
 }
 
 strong {
