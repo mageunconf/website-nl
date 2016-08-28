@@ -454,5 +454,6 @@ p > .framed {
     }
 }
 
-.participants a { color: rgb(10, 10, 10); font-weight: normal; font-size: 12px; }
-.participants a span { font-size: 14px; }
+.participants a { color: rgb(10, 10, 10); font-weight: normal; font-size: 12px; text-decoration: none; }
+.participants a span { font-size: 14px; text-decoration: underline; }
+.participants td { vertical-align: top; padding: 5px 8px; }
