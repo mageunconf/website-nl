@@ -453,3 +453,6 @@ p > .framed {
         min-width: 0;
     }
 }
+
+.participants a { color: rgb(10, 10, 10); font-weight: normal; font-size: 12px; }
+.participants a span { font-size: 14px; }
