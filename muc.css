@@ -461,3 +461,8 @@ p > .framed {
 div.sponsor-logos { margin-left: 175px; margin-right: 175px; }
 div.sponsor-logos a { margin: 15px; width: 160px; height: 160px; text-decoration: none; vertical-align: middle; }
 div.sponsor-logos.small a { width: 100px; height: 100px; }
+
+@media (max-width: 430px) {
+    #financial h3,
+    div.sponsor-logos { margin-left: 15%; margin-right: 15%; }
+}
