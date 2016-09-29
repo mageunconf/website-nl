@@ -47,7 +47,7 @@ h2 {
 
 h3 {
     font-size: 13pt;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 10px;
 }
 
@@ -152,7 +152,7 @@ section {
     padding: 50px 0;
 }
 
-#financial h2, #financial p, #location h2, #location p {
+#financial h2, #financial h3, #financial p, #location h2, #location p {
     margin-left: 175px;
     margin-right: 175px;
 }
@@ -457,3 +457,7 @@ p > .framed {
 .participants a { color: rgb(10, 10, 10); font-weight: normal; font-size: 12px; text-decoration: none; }
 .participants a span { font-size: 14px; text-decoration: underline; }
 .participants td { vertical-align: top; padding: 5px 8px; }
+
+div.sponsor-logos { margin-left: 175px; margin-right: 175px; }
+div.sponsor-logos a { margin: 15px; width: 160px; height: 160px; text-decoration: none; vertical-align: middle; }
+div.sponsor-logos.small a { width: 100px; height: 100px; }
